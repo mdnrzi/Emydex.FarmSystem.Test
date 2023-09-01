@@ -7,7 +7,7 @@ namespace FarmSystem.Test1
 {
     public class EmydexFarmSystem
     {
-
+        //List of animals
         private List<IAnimal> animals = new List<IAnimal>();
         // Event to notify when the farm is empty
         public event EventHandler FarmEmpty;
